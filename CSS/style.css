@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 825px;
+  height: 372px;
+  background-color: white;
+  border: 5px solid black;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.taylor {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+header {
+  float: left;
+}
+.tiger {
+  width: 250px;
+  height: 220px;
+}
+
+aside {
+  float: left;
+  margin-left: 25px;
+  width: 220px;
+  height: 25px;
+}
+.dollar {
+  margin-top: 20px;
+  font-weight: bold;
+  float: left;
+}
+.ship {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 11px;
+  float: right;
+  margin-top: 27px;
+}
+p {
+  clear: both;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+a {
+  color: black;
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 30px;
+  gap: 14px;
+}
+.box1 {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+}
+.box2 {
+  background-color: rgb(55, 13, 241);
+  width: 20px;
+  height: 20px;
+}
+.box3 {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+}
+.box4 {
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+}
+.box5 {
+  background-color: rgb(6, 235, 37);
+  width: 20px;
+  height: 20px;
+}
+.box6 {
+  background-color: rgba(32, 8, 7, 0.26);
+  width: 20px;
+  height: 20px;
+}
+
+article {
+  float: left;
+  margin-left: 25px;
+  width: 250px;
+  height: 220px;
+}
+.product {
+  margin-top: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+ul {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+li {
+  margin-top: 25px;
+}
+button {
+  margin-top: -4px;
+  width: 815px;
+  height: 50px;
+  background-color: black;
+  color: grey;
+  font-size: 16px;
+}
+.sale {
+  color: white;
+  width: 67px;
+  height: 30px;
+  padding: 8px;
+  padding-left: 15px;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: red;
+  position: relative;
+  top: -84px;
+  left: -38px;
+}
